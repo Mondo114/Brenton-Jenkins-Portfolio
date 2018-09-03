@@ -1,6 +1,5 @@
 html {
     font-size: 28px;
-    /* width: 100%; */
     z-index: 0;
 }
 
@@ -313,19 +312,12 @@ nav .nav-wrapper {
     width: 60px;
     height: 60px;
     margin: 10px;
-    /* border: 3px solid rgb(133, 240, 133); */
     border-radius: 5px;
 }
 
 .social-link:hover {
     opacity: 0.7;
 }
-
-/* .link-title {
-    display: inline-block;
-    position: absolute;
-    margin: 30px;
-} */
 
 .link-title a,
 .github-repo {
@@ -379,16 +371,15 @@ nav .nav-wrapper {
     font-family: 'Raleway', sans-serif;
 }
 
+
 /* Media Queries */
+
 @media only screen and (max-width: 1300px) {
     #banner-phrase1 {
         font-size: 50px;
     }
     #banner-phrase2 {
         font-size: 50px;
-    }
-    .github-repo {
-        font-size: 20px;
     }
     .social-link {
         width: 50px;
@@ -436,9 +427,6 @@ nav .nav-wrapper {
     html {
         font-size: 20px;
     }
-    .github-repo {
-        font-size: 19px;
-    }
     .link-title {
         display: inline-block;
         position: absolute;
@@ -482,8 +470,8 @@ nav .nav-wrapper {
     .github-repo {
         font-size: 14px;
     }
-    .connect-link {
-        /* margin-left: 0; */
+    .footer-name {
+        font-size: 14px;
     }
     .social-link {
         width: 40px;
